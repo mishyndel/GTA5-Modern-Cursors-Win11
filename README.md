@@ -3,6 +3,7 @@
 The iconic middle finger cursor from the GTA V in-game browser, remade in the clean **Windows 11** style. Smooth edges, native drop shadow, and full DPI scaling (`32×32` to `128×128`).
 
 ![Preview](preview.png)
+![Demo](demo.gif)
 
 ## What's inside
 * `gta5_link.cur` — Link select
