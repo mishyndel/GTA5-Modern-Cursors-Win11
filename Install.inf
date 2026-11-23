@@ -1,0 +1,24 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\Cursors\aero_arrow.cur,%10%\Cursors\aero_helpsel.cur,%10%\Cursors\aero_working.ani,%10%\Cursors\aero_busy.ani,%10%\Cursors\cross_r.cur,%10%\Cursors\beam_r.cur,%10%\Cursors\pen_r.cur,%10%\Cursors\aero_unavail.cur,%10%\Cursors\aero_ns.cur,%10%\Cursors\aero_ew.cur,%10%\Cursors\aero_nwse.cur,%10%\Cursors\aero_nesw.cur,%10%\Cursors\aero_move.cur,%10%\Cursors\up_r.cur,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+
+[Scheme.Cur]
+"gta5_link.cur"
+"gta5_pin.cur"
+"gta5_person.cur"
+
+[Strings]
+CUR_DIR     = "Cursors\GTA5_Modern"
+SCHEME_NAME = "GTA 5 Modern (Win 11 Style)"
+link        = "gta5_link.cur"
+pin         = "gta5_pin.cur"
+person      = "gta5_person.cur"
